@@ -1,13 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class JoinRoomPage extends Component {
-  constructor(props) {
-    super(props);
-  }
+const JoinRoomPage = () => {
+  return (
+    <h1>This is the JoinRoomPage</h1>
+  );
+};
 
-  render() {
-    return (
-      <h1>This is the JoinRoomPage</h1>
-    );
-  }
-}
+export default JoinRoomPage;
